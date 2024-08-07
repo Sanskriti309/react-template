@@ -1,0 +1,533 @@
+body {
+  width: 100%;
+  max-width: auto;
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow: auto;
+  display: block;
+}
+@media screen and ((min-width:138px) and (max-width: 930px)) {
+  .container {
+    width: 100%;
+    max-width: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow: auto;
+    display: block;
+  }
+}
+ul {
+  list-style: none;
+  float: left;
+}
+.nav {
+  font-size:1rem;
+  font-weight: 500;
+  color: rgb(255, 249, 249);
+}
+.navlogo{
+  width: 50px;
+  height: 40px;
+}
+.navbarToggle{
+  margin-right: 30px;
+}
+.techpath {
+  font-size: 1rem;
+  font-weight: 500;
+  background-color:  #fc4a1a;
+  color: rgb(255, 249, 249);
+}
+.techpath:hover{
+  background-color: #f8f9fa;
+}
+.card:hover {
+  background-color: #FC4A1A; 
+  transition: background-color 0.3s ease; 
+}
+.card:hover h5,
+.card:hover p,
+.card:hover .fontIcon {
+  color: #f8f9fa; 
+  transition: color 0.3s ease; 
+}
+.of span {
+  color: #FC4A1A;
+}
+.servicePara {
+  text-align: left;
+  font-size: 1.5rem;
+}
+.ourButton {
+  background-color: #fc4a1a;
+  border: #FC4A1A;
+  color: white;
+  float: left;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.ourButton:hover {
+  background-color:white;
+  border: 2px solid #FC4A1A;
+  color:#FC4A1A ;
+  float: left;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.fontIcon {
+  height: 80px;
+  color: #fc4a1a;
+}
+.card {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 18rem;
+}
+.company {
+  text-align: left;
+  font-size: 60px;
+  font-weight: 600;
+}
+.solutionPara {
+  text-align: left;
+  font-size: 25px;
+}
+.businessButton {
+  font-size: 1.2rem;
+  width: 350px;
+}
+.chechSquare {
+  height: 30px;
+  color: #fc4a1a;
+  font-weight: bold;
+  font-size: 20px;
+  padding-right: 5px;
+}
+.first {
+  width: 50px;
+  border-width: 5px;
+  font-weight: bold;
+  color: #FC4A1A;
+  margin-bottom: 15px;
+}
+.happy {
+  text-align: center;
+}
+.com{
+  color: gold;
+}
+.headingAbout {
+  margin-left: 100px;
+  font-size: 30px;
+}
+.aboutHeading {
+  margin-left: 100px;
+  font-weight: 700;
+}
+.aboutPara {
+  font-weight: 300;
+  margin-left: 100px;
+}
+.list1 {
+  margin-left: 50px;
+}
+.aboutFont1 {
+  height: 25px;
+  color: #F7B733;
+  font-weight: bold;
+  font-size: 35px;
+  padding-right: 20px;
+}
+.aboutFont2 {
+  height: 25px;
+  color: #FC4A1A;
+  font-weight: bold;
+  font-size: 35px;
+  padding-right: 20px;
+}
+.solutionFont {
+  color: #FC4A1A;
+  font-weight: bold;
+  float: left;
+  font-size: 40px;
+}
+.aboutImage {
+  margin-top: -20px;
+  width: 100%;
+  height: 100%;
+}
+.plan{
+  font-size:50px;
+  background-color:white;
+  color:#FC4A1A;
+  border-radius:50px;
+}
+.plan:hover{
+  background-color:  #FC4A1A;
+  color:white;
+}
+/* Footer Style Start*/
+.footer-content {
+  text-align: left;
+  color: #FFFFFF;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.9em;
+}
+.footer-header {
+  text-align: left;
+  color: #FFFFFF;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.9em;
+}
+.socials {
+  background: #23BDB8;
+  padding: 5px 4px 5px 10px;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+}
+/* Footer Style End*/
+@media ((max-width: 2120px) and (min-width: 1620px)) {
+  .headingAbout {
+    margin-left: 50px;
+  }
+  .aboutHeading {
+    margin-left: 50px;
+  }
+  .aboutPara {
+    font-size: 1.4rem;
+    margin-left: 50px;
+  }
+  .list1 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-left: 40px;
+  }
+  .list2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-left: 40px;
+  }
+  .businessButton {
+    font-size: 1.2rem;
+    width: 350px;
+  }
+}
+@media ((max-width: 1620px) and (min-width: 1471px)) {
+  .be {
+    text-align: left;
+    font-size: 2.3rem;
+  }
+  .of {
+    text-align: left;
+    font-size: 2.4rem;
+  }
+  .servicePara {
+    text-align: left;
+    font-size: 1.5rem;
+  }
+  .businessButton {
+    font-size: 1.2rem;
+    width: 320px;
+  }
+  .headingAbout {
+    margin-left: 1px;
+  }
+  .aboutHeading {
+    margin-left: 1px;
+  }
+  .aboutPara {
+    font-size: 1.3rem;
+    margin-left: 1px;
+  }
+  .list1 {
+    font-size: 1rem;
+    margin-left: 1px;
+  }
+  .list2 {
+    font-size: 1rem;
+    margin-left: 1px;
+  }
+  .aboutImage {
+    width: 90%;
+    height: 90%;
+  }
+  .footer-content {
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.9em;
+  }
+  .footer-header {
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.9em;
+  }
+}
+@media (max-width: 1470px) {
+  .be {
+    text-align: left;
+    font-size: 2.3rem;
+  }
+  .of {
+    text-align: left;
+    font-size: 2.4rem;
+  }
+  .servicePara {
+    font-size: 1.2rem;
+  }
+  .solutionPara {
+    font-size: 18px;
+  }
+  .company {
+    text-align: left;
+    font-size: 38px;
+    font-weight: 600;
+  }
+  .businessButton {
+    width: 210px;
+    font-size: 16px;
+  }
+  .headingAbout {
+    margin-left: 20px;
+  }
+  .aboutHeading {
+    margin-left: 20px;
+  }
+  .aboutPara {
+    font-size: 1.2rem;
+    margin-left: 20px;
+  }
+  .list1 {
+    font-size: 0.7rem;
+    font-weight: 700;
+    margin-left: 1px;
+  }
+  .list2 {
+    font-size: 0.7rem;
+    font-weight: 700;
+    margin-left: 1px;
+  }
+  .aboutImage {
+    width: 90%;
+    height: 90%;
+  }
+  .footer-content {
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.9em;
+  }
+  .footer-header {
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.9em;
+  }
+}
+@media (max-width: 750px) {
+  .be {
+    text-align: left;
+    font-size: 2rem;
+  }
+  .of {
+    text-align: left;
+    font-size: 2.1rem;
+  }
+  .headingAbout {
+    margin-left: 20px;
+  }
+  .aboutHeading {
+    margin-left: 20px;
+  }
+  .aboutPara {
+    font-size: 1.3rem;
+    margin-left: 20px;
+  }
+  .list1 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 1px;
+  }
+  .list2 {
+    font-weight: 700;
+    font-size: 1rem;
+    margin-left: 1px;
+  }
+  .aboutImage {
+    width: 90%;
+    height: 90%;
+    margin: 0px;
+  }
+  .footer-content {
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.9em;
+  }
+  .footer-header {
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.9em;
+  }
+}
+@media (max-width: 1000px) {
+  .nav {
+    font-size:0.8rem;
+    font-weight: 500;
+  }
+  .techpath {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  .be {
+    text-align: left;
+    font-size: 2rem;
+  }
+  .of {
+    text-align: left;
+    font-size: 2.1rem;
+  }
+  .solutionPara {
+    font-size: 18px;
+  }
+  .company {
+    text-align: left;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .image {
+    width: 95%;
+    height: 85%;
+  }
+}
+@media (max-width: 580px) {
+  .mm {
+    text-align: center;
+  }
+  .mv {
+    margin-top: 10px;
+    text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  .servicePara {
+    font-size: 1.2rem;
+  }
+  .ourButton {
+    background-color: #fc4a1a;
+    color: white;
+    float: left;
+    font-size: 18px;
+    font-weight: 300;
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+}
+@media (max-width: 400px) {
+  .company {
+    text-align: left;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .ourButton {
+    background-color: #fc4a1a;
+    color: white;
+    float: left;
+    font-size: 13px;
+    font-weight: 300;
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+}
+@media (max-width: 488px) {
+  .company {
+    text-align: left;
+    font-size: 22px;
+    font-weight: 600;
+  }
+}
+@media (max-width: 372px) {
+  .company {
+    text-align: left;
+    font-size: 17px;
+    font-weight: 600;
+  }
+}
+@media((max-width: 500px) and (min-width:280px)) {
+  .nav {
+    font-size:0.8rem;
+    font-weight: 500;
+  }
+  .navlogo{
+    width: 40px;
+    height: 40px;
+  }
+  .techpath {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  .headingAbout {
+    font-size: 0.8rem;
+    margin-left: 10px;
+  }
+  .aboutHeading {
+    font-size: 1.3rem;
+    margin-left: 10px;
+  }
+  .aboutPara {
+    font-size: 0.8rem;
+    margin-left: 10px;
+  }
+  .list1 {
+    font-size: 0.6rem;
+    font-weight: 700;
+  }
+  .list2 {
+    font-size: 0.6rem;
+    font-weight: 700;
+  }
+  .plan{
+    font-size:40px;
+    background-color:white;
+    color:#FC4A1A;
+    border-radius:40px;
+  }
+  .com{
+    color: gold;
+  }
+}
+@media ((max-width:1025px) and (min-width:992px)){
+  .aboutFont1 {
+    height: 25px;
+    font-weight: bold;
+    font-size: 25px;
+    padding-right: 10px;
+  }
+  .aboutFont2 {
+    height: 25px;
+    font-weight: bold;
+    font-size: 25px;
+    padding-right: 10px;
+  }
+  .list1 {
+    font-size: 0.6rem;
+    font-weight: 600;
+  }
+  .list2 {
+    font-size: 0.6rem;
+    font-weight: 600;
+  }
+}
